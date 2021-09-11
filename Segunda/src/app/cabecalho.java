@@ -20,6 +20,6 @@ public class cabecalho extends HttpServlet{
 		resposta.getWriter().print("<h1>ACCEPT-ENCODING</h1>");
 		resposta.getWriter().print(requisicao.getHeader("accept-encoding"));
 		resposta.getWriter().print("<h1>ACCEPT-LANGUAGE</h1>");
-		resposta.getWriter().print(requisicao.getHeader("accept-encoding"));
+		resposta.getWriter().print(requisicao.getHeader("accept-language"));
 	}
 }
